@@ -1,0 +1,137 @@
+/* BASIC STYLES HERE */
+body {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	background: rgba(0, 0, 0, .2) url(https://img.freepik.com/free-vector/colorful-fruits-pattern_23-2148599522.jpg?w=2000);
+	background-size: cover;
+	background-blend-mode: color;
+	gap: 3rem;
+}
+
+header {
+	display: flex;
+	gap: 1rem;
+}
+
+.title {
+	background-color: white;
+	border: 2px solid black;
+	padding: 1rem 6rem;
+	font-weight: 600;
+	font-size: 2rem;
+	border-radius: .5rem;
+	box-shadow: .75rem -.5rem 0em palevioletred;
+	margin-right: auto;
+}
+
+header button {
+	border-radius: .5rem;
+	box-shadow: .75rem -.5rem 0em palevioletred;
+
+}
+
+header button:hover {
+	background-color: rgb(224, 224, 224);
+}
+
+.currPlayer {
+	background-color: white;
+	border: 2px solid black;
+	padding: 1rem 3rem;
+	font-weight: 400;
+	font-size: 1.25rem;
+	border-radius: .5rem;
+	box-shadow: -.75rem -.5rem 0em #91c250;
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	justify-content: space-between;
+
+}
+
+label {
+	font-size: 1rem;
+}
+
+progress {
+	width: 100%;
+	accent-color: #bc87d5;
+	color: white;
+}
+
+.wordEntry {
+	background-color: white;
+	border: 2px solid black;
+	padding: 2rem 2rem;
+	font-weight: 600;
+	font-size: 2rem;
+	border-radius: .5rem;
+	box-shadow: -.75rem .5rem 0em #bc87d5;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+#currWord {
+	text-transform: lowercase;
+	font-weight: 500;
+}
+
+#wordEntry {
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	font-weight: 400;
+	box-shadow: 0 .25rem 0em #bc87d5;
+	border: 2px black solid;
+	border-radius: .25rem;
+}
+
+
+.players {
+	background-color: white;
+	border: 2px solid black;
+	padding: 2rem 3rem;
+	font-weight: 600;
+	font-size: 2rem;
+	border-radius: .5rem;
+	box-shadow: .75rem .5rem 0em palegoldenrod;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+#playerList {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+}
+
+.player {
+	font-weight: 500;
+	font-size: 1.25rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mdi {
+	font-size: 1.5rem;
+	text-shadow: 0rem .2rem 0em palegoldenrod;
+}
+
+
+#nameEntry {
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	font-weight: 400;
+	box-shadow: 0 .25rem 0em palegoldenrod;
+	border: 2px black solid;
+	border-radius: .25rem;
+	font-size: 1.25rem;
+}
